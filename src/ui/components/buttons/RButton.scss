@@ -1,0 +1,27 @@
+@import "../../styles/variables.scss";
+
+.r-btn {
+  padding: 8px 16px;
+  border-radius: 2px;
+  // border-width: 3px;
+  border-color: transparent;
+  cursor: pointer;
+  // outline: solid;
+
+  &__primary {
+    background: $primary;
+    color: $white;
+    // border-color: $primary;
+
+    &:hover {
+      background: $primary-hover;
+      // border-color: $primary-hover;
+    }
+
+    &:disabled {
+      background: $neutral-3;
+      color: $neutral-5;
+      // border-color: $neutral-5;
+    }
+  }
+}

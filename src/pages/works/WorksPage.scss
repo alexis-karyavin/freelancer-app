@@ -1,0 +1,9 @@
+.works-page {
+  &__header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__search {
+    margin-right: 10px;
+  }
+}

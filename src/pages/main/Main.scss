@@ -1,0 +1,27 @@
+.main-wraper {
+  display: flex;
+  // flex-wrap: wrap;
+  gap: 20px;
+}
+
+.content {
+  &__card {
+    &.r-card {
+      // width: 44%;
+      // flex: 0 0 50%;
+      // max-width: none;
+      // height: auto;
+
+      &.w-100 {
+        // width: 100%;
+        // flex: 0 0 100%;
+      }
+    }
+    &__footer {
+      text-align: right;
+    }
+    // flex-basis: 100%;
+    // max-width: 100%;
+    // height: auto;
+  }
+}

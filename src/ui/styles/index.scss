@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+body {
+  font-family: "Roboto";
+  // color: #3a4a67;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.body-app {
+  display: flex;
+  height: calc(100% - 40px);
+}
+
+.content {
+  padding: 20px 24px;
+  // flex: 1;
+  // border-radius: 20px;
+  background: #eceff3;
+  // margin-right: 15px;
+
+  // margin-bottom: 15px;
+  // overflow-y: auto;
+  width: 100%;
+
+  &-wrapper {
+    height: calc(100% - 40px);
+    // overflow-y: auto;
+    // width: 100%;
+    background: #ffffff;
+
+    // border-radius: 15px;
+    padding: 20px;
+  }
+
+  &__card {
+    // width: 100%;
+    // max-width: none;
+    // height: calc(100% - 40px);
+    // border: none;
+  }
+}
+
+.left-sidebar {
+  padding: 10px;
+}

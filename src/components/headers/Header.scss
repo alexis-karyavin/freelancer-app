@@ -1,0 +1,24 @@
+.header {
+  height: 40px;
+  background: #001529;
+
+  // box-shadow: inset 0px -1px 0px #f0f0f0;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+
+  &__brand {
+    // color: #3a4a67;
+    color: #ffffff;
+  }
+
+  &__content {
+    display: flex;
+    &--rigth {
+      align-items: center;
+    }
+  }
+}

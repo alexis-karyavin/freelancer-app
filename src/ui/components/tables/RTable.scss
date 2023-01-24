@@ -1,0 +1,33 @@
+@import "~variables";
+$separator-color: rgba(0, 0, 0, 0.06);
+
+.r-table {
+  th,
+  td {
+    padding: 25px 15px;
+  }
+
+  tr {
+    &:not(:first-child) {
+      border-top: 1px solid $separator-color;
+    }
+  }
+
+  &__col {
+    background: $neutral-2;
+    position: relative;
+
+    &:not(:last-child) {
+      &::after {
+        content: "";
+        width: 2px;
+        height: 60%;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        background: $separator-color;
+      }
+    }
+  }
+}

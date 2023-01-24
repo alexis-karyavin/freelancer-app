@@ -1,0 +1,15 @@
+.r-avatar {
+  display: flex;
+  width: 32px;
+  height: 32px;
+
+  border-radius: 100%;
+  background: #40a9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__image {
+    width: 50%;
+  }
+}

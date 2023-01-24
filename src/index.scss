@@ -1,0 +1,12 @@
+@import "reset-css";
+@import "./ui/styles/index.scss";
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  // background: #eceff3;
+}
